@@ -1,0 +1,48 @@
+[
+  {           "id": 1,
+              "product": "T-Shirt",
+              "price": 50.00,
+              "color": "green",
+              "tax": "10%",
+              "discount": "2%"
+            },
+            {
+              "id": 2,
+              "product": "Jeans",
+              "price": 50.00,
+              "tax": "10%",
+              "discount": "2%",
+              "color": "green"
+            },
+        {
+          
+              "id": 3,
+              "product": "Sneakers",
+              "price": 79.99,
+              "tax": "10%",
+              "discount": "2%",
+              "color": "pink"
+            },
+    {
+
+              "id": 4,
+              "product": "Dress",
+              "quantity": 1,
+              "price": 100.00,
+              "paymentMethod": "card",
+              "tax": "10%",
+              "discount": "5%",
+              "color": "yellow"
+            },
+            {
+                "id": 5,
+              "product": "High Heels",
+              "quantity": 1,
+              "price": 59.98,
+              "paymentMethod": "card",
+              "tax": "10%",
+              "discount": "5%",
+              "invoiceNumber": "2424356464524535"
+            }
+     
+  ]

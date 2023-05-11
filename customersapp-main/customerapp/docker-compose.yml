@@ -1,0 +1,25 @@
+version: '3.5'
+
+services:
+  angular-service:
+    container_name: angular-container1
+    build: ./customerUi/
+    volumes:
+      - './:/usr/src/app'
+    ports:
+      - 4200:4200
+    command: >
+      bash -c "npm start" 
+    networks:
+       - customer-app
+  springboot:
+        build: ./customer-app
+        container_name: spring-container1
+        ports:
+          - '8080:8080'
+        networks:
+          - customer-app
+networks: 
+   customer-app: {}                       
+  
+   

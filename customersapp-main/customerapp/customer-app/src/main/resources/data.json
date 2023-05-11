@@ -1,0 +1,88 @@
+[
+    {
+      "id": 1,
+      "name": "John Smith",
+      "age": 21,
+      "address": "321 Sumit ave New jersey 07306",
+      "number": "8503399808",
+      "email": "john.smith@gmail.com",
+      "orders": [
+        {
+          "id": 1001,
+          "date": "2023-04-28",
+          "items": [
+            {
+              "product": "T-Shirt",
+              "quantity": 2,
+              "price": 50.00,
+              "paymentMethod": "cash",
+              "tax": "10%",
+              "discount": "2%",
+              "invoiceNumber": "242435646624535"
+            },
+            {
+              "product": "Jeans",
+              "quantity": 1,
+              "price": 50.00,
+              "paymentMethod": "cash",
+              "tax": "10%",
+              "discount": "2%",
+              "invoiceNumber": "242435646624535"
+            }
+          ],
+          "total": 100.00
+        },
+        {
+          "id": 1002,
+          "date": "2023-04-30",
+          "items": [
+            {
+              "product": "Sneakers",
+              "quantity": 1,
+              "price": 79.99,
+              "paymentMethod": "cash",
+              "tax": "10%",
+              "discount": "2%",
+              "invoiceNumber": "2424354456624535"
+            }
+          ],
+          "total": 79.99
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Emily Johnson",
+      "email": "emily.johnson@hotmail.com",
+      "age": 21,
+      "address": "321 Sumit ave New York 07306",
+      "number": "8503399888",
+      "orders": [
+        {
+          "id": 1003,
+          "date": "2023-04-29",
+          "items": [
+            {
+              "product": "Dress",
+              "quantity": 1,
+              "price": 100.00,
+              "paymentMethod": "card",
+              "tax": "10%",
+              "discount": "5%",
+              "invoiceNumber": "242435646624534"
+            },
+            {
+              "product": "High Heels",
+              "quantity": 1,
+              "price": 59.98,
+              "paymentMethod": "card",
+              "tax": "10%",
+              "discount": "5%",
+              "invoiceNumber": "2424356464524535"
+            }
+          ],
+          "total": 159.98
+        }
+      ]
+    }
+  ]

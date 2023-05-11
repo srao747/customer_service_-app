@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "name": "John Smith",
+      "age": 21,
+      "address": "321 Sumit ave New jersey 07306",
+      "number": "8503399808",
+      "email": "john.smith@gmail.com"
+        },
+    {
+      "id": 2,
+      "name": "Emily Johnson",
+      "email": "emily.johnson@hotmail.com",
+      "age": 21,
+      "address": "321 Sumit ave New York 07306",
+      "number": "8503399888"
+
+        }
+      ]
+ 

@@ -1,0 +1,19 @@
+<div class="card-group">
+    <div *ngFor="let item of items" class="card">
+      <div class="card-header">
+        <h5 class="card-title">{{ item.product }}</h5>
+      </div>
+      <div class="card-body">
+        <ul class="list-group">
+          <li class="list-group-item"><strong>Quantity: </strong>{{ item.quantity }}</li>
+          <li class="list-group-item"><strong>Invoice Number: </strong>{{ item.invoiceNumber }}</li>
+          <li class="list-group-item"><strong>Discount: </strong>{{ item.discount }}</li>
+          <li class="list-group-item"><strong>Tax: </strong>{{ item.tax }}</li>
+          <li class="list-group-item"><strong>Payment Method: </strong>{{ item.paymentMethod }}</li>
+          <li class="list-group-item"><strong>Price: </strong>${{ item.price }}</li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+  

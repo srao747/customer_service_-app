@@ -1,0 +1,32 @@
+[
+    {
+        "customerId": 1,
+        "itemId": 1,
+        "price": 100,
+        "quantity": 2,
+        "paymentMethod": "card",
+        "invoiceNumber": "242435646624534"
+
+
+    },
+    {
+        "customerId": 1,
+        "itemId": 2,
+        "price": 50,
+        "quantity": 1,
+        "paymentMethod": "card",
+        "invoiceNumber": "242435646624535"
+
+
+    },
+    {
+        "customerId": 2,
+        "itemId": 3,
+        "price": 79.99,
+        "quantity": 1,
+        "paymentMethod": "card",
+        "invoiceNumber": "242435646624035"
+
+
+    }
+]
